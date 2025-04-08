@@ -34,7 +34,7 @@ void imprimir_titulo() {
 |       /\    |__)   |   |__)   |   |\ |   |    |   |    |__
 |___   /--\   |__)   |   |  \   |   | \|   |    |   |    |___)";
 
-  const wchar_t *subtitulo = BLUB BBLU L"    O resolvedor de labirintos mais tonto que você já viu    ";
+  const wchar_t *subtitulo = BLUB L"\e[1m\e[38;5;255m    O resolvedor de labirintos mais tonto que você já viu    ";
 
   wprintf(MOVE_TOP_LEFT CLEAN_LINE_END L"%ls\n\n%ls" COLOR_RESET, titulo, subtitulo);
   fflush(stdout);
