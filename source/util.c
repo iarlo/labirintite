@@ -42,8 +42,7 @@ wchar_t mapa_binario_trilha[16] = {
   L'\x2502', L'\x2514', L'\x2518', L'\x2534', L'\x2502', L'\x251C', L'\x2524', L'\x253C',
 };
 
-wchar_t mapa_caracteres_estaticos[] = { INIMIGO,   L'\x1FA51', '}',       L'\x2694', CAMINHO_LIVRE, L'\x22C5', '/',
-                                        L'\x22C5', '{',       L'\x22C5', SAIDA,     L'\x2691',     0,         0 };
+wchar_t mapa_caracteres_estaticos[] = { CAMINHO_LIVRE, L'\x22C5', '/', L'\x22C5', '{', L'\x22C5', SAIDA, L'\x2691', 0, 0 };
 
 Mapa_Cores mapa_cores[] = { { PAREDE, L"\e[0;94m" }, { TRILHA, L"\e[0;32m" },  { INIMIGO, L"\e[38;5;196m" },
                             { '}', L"\e[0;31m" },    { JOGADOR, L"\e[0;33m" }, { 0, 0 } };
